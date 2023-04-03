@@ -2,4 +2,12 @@
 body{
     margin: 0;
     font-family: 'Oswald', 'sans serif';
+  
+        position: initial;
+        min-width: 100vw;
+        scrollbar-width: none;
+        background-color: #FFF;
+        word-wrap: break-word;
+        background-size: cover;
+    
 }
