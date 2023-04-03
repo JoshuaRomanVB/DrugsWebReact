@@ -14,7 +14,30 @@ nav{
     padding-top: 10px;
 }
 
+.ps-block--promotion-header .ps-block__left h3 {
+    line-height: 1;
+    font-size: 48px;
+    color: #f14705;
+    font-weight: 300;
+}
 
+.ps-block--promotion-header .ps-block__left {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.blue-text {
+    color: #0071df !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    position: relative;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
 .ps-block--promotion-header .container {
     display: flex;
     position: fixed;
