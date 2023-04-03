@@ -1,0 +1,76 @@
+@import 'vars';
+
+.emailenviado{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.form-container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 500px;
+}
+
+.logomail{
+    justify-self:center;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 48px;
+}
+.label{
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+.p-secundaria{
+    text-align: center;
+    font-weight: bold;
+    color: var(--gris-secundario);
+}
+
+p a{
+    color: var(--azul-marino);
+}
+.input{
+    height: 32px;
+    background-color: var(--silver-secundario);
+    border: none;
+    border-radius: 8px;
+    font-size: var(--sm);
+    margin-bottom: 12px;
+}
+.boton-principal{
+    height: 48px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    border: none;
+    color: var(--blanco-principal);
+    background-color: var(--azul-marino);
+    margin-bottom: 20px;
+}
+.reenviar{
+    color:var(--black-coral-grisoscuro);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 48px;
+}
+@media(max-width:640px){
+    .logo{
+        display: block;
+    }
+    .boton-secundario{
+        position: absolute;
+        bottom: 28px;
+        width: inherit;
+        justify-content: center;
+        display: flex;
+    }
+}

@@ -1,0 +1,16 @@
+@import '_vars';
+
+.container_orden {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+
+.content_orden {
+    background-color: var(--blanco-principal);
+    width: 400px;
+    margin: 10px 0;
+    display: block;
+}

@@ -1,0 +1,68 @@
+@import '_vars';
+
+.crearcuenta{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+ 
+.form-container{
+    display: grid;
+    grid-template-rows:auto ifr auto ;
+    width: 300px;
+}
+
+.formulario-cuenta{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    justify-self: center;
+    width: 130px;
+    height: 100px;
+    display: none;
+    margin-bottom: 40px;
+}
+
+.label{
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+
+}
+
+.input{
+    height: 32px;
+    background-color: var(--gris-secundario);
+    border: none;
+    border-radius: 8px;
+    font-size: var(--sm);
+    margin-bottom: 12px;
+}
+
+.boton-principal{
+    height: 48px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    border: none;
+    color: var(--blanco-principal);
+    background-color: var(--azul-marino);
+    margin-bottom: 20px;
+}
+
+
+
+@media(max-width:640px){
+    .logo{
+        display: block;
+    }
+    .boton-principal{
+        position: absolute;
+        bottom: 10px;
+        width: inherit;
+    }
+}

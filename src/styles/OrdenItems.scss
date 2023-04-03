@@ -1,0 +1,40 @@
+@import 'vars';
+
+
+.orden_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--azul-marino);
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: var(--azul-marino);
+}
+.descripcion3 p{
+    font-size: var(--md);
+    color: black;
+}
+
+.orden_items img{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+
+.total h2{
+    font-weight: bold;
+    font-size: var(--md);
+}
+
+@media (max-width: 400px){
+    .orden_items {
+        flex-direction: column-reverse;
+        width: 100vh;
+        height: 100vh;
+    }
+
+    }

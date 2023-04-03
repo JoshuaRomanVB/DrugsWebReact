@@ -1,0 +1,157 @@
+@import '_vars';
+
+nav{
+    position: fixed;
+    top: 140px;;
+    left:0;
+    right: 0;
+    width: 98%;
+    background-color: var(--azul-marino);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-bottom: 1px solid var(--gris-secundario);
+    padding-top: 10px;
+}
+
+
+.ps-block--promotion-header .container {
+    display: flex;
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.header-promotion {
+    background-color: #eeeeee;
+}
+
+.ps-block--promotion-header {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.ps-block--promotion-header {
+    padding: 10px 0;
+}
+
+.bg--cover {
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+}
+
+.promotion-content {
+    padding: 16px 0px;
+}
+
+.ps-block--promotion-header .ps-btn {
+    background-color: #f14705;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 8px 20px;
+}
+
+.button-color {
+    background-color: #0071df !important;
+}
+
+.menu{
+    
+    display: none;
+    width: 44px;
+    height: 44px;
+
+}
+
+.logo{
+    width: 80px;
+    height: 65px;
+}
+
+.navbar-izquierda ul,
+.navbar-derecha ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+align-items: center;
+height: 60px;
+}
+
+.navbar-izquierda{
+    display: flex;
+}
+.navbar-izquierda ul{
+    margin-left: 12px;
+}
+
+.navbar-izquierda ul li a,
+.navbar-derecha ul li a {
+text-decoration: none;
+color: var(--blanco-principal);
+padding: 8px;
+border-radius: 8px;
+}
+
+.navbar-izquierda ul li a:hover,
+.navbar-derecha ul li a:hover {
+    border: 1px solid var(--blanco-principal);
+    color: var(--gris-secundario);
+}
+
+
+.navbar-email{
+    color: var(--azul-secundario);
+    font-size: var(--sm);
+    margin-right: 12px;
+}
+
+.navbar-carrito{
+    position: relative;
+}
+
+.navbar-carrito div{
+    width: 16px;
+    height: 16px;
+    background-color: var(--azul-secundario);
+    border-radius: 50%;
+    font-size: var(--sm);
+    font-weight: bold;
+    position: absolute;
+    top: -6px;
+    right: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito{
+    width:  50px;
+    height: 50px;
+}
+
+.carritounidades{
+    color: var(--blanco-principal);
+}
+
+.menu{
+    display: none;
+}
+
+@media(max-width: 640px){
+    .menu{
+        display: block;
+    }
+    .navbar-izquierda ul{
+        display: none;
+    }
+    .navbar-email{
+        display: none;
+    } 
+}

@@ -1,0 +1,51 @@
+.container_ordenCo {
+    width: 400;
+    justify-content: center;
+    position: fixed;
+
+    top: 3.7rem;
+    right: 0rem;
+
+    z-index: 1; /* opcional: para asegurarse de que el componente esté por encima de otros elementos */
+  }
+  
+  .content_ordenCo {
+    background-color: var(--blanco-principal);
+    max-height: 300px; /* Altura máxima deseada */
+    overflow-y: auto;
+    background-color: var(--blanco-principal);
+    width: 400px;
+    margin: 10px 0;
+    display: block;
+  }
+  
+  .buttonTotalco {
+    background-color: var(--azul-marino);
+    border-radius: 30;
+    margin: 10px 10px 10px 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .textTotalco {
+    color: var(--blanco-principal);
+  }
+  
+  
+@media(max-width: 640px){
+  .container_ordenCo {
+    justify-content: center;
+    position: fixed;
+    top: 5rem;
+    width: 100%;
+    z-index: 1; /* opcional: para asegurarse de que el componente esté por encima de otros elementos */
+  }
+  .content_ordenCo {
+    width: 100%;
+    background-color: var(--blanco-principal);
+    max-height: 300px; /* Altura máxima deseada */
+    overflow-y: auto;
+
+    display: block;
+  }
+}

@@ -1,0 +1,38 @@
+@import '_vars';
+
+
+.menu-container-nav{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    border-radius: 30;
+    z-index: 1; 
+    background-color: var(--azul-marino);
+}
+
+.menu-container-nav ul{
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.menu-container-nav p{
+    color: var(--azul-marino)
+}
+
+.menu-container-nav a{
+    font-size: var(--xsm);
+    font-weight: bold;
+    color: var(--blanco-principal);
+    
+    text-decoration: none;
+}
+
+.menu-container-nav ul li a{
+    text-align: end;
+    margin-left: 40px;
+    color: var(--blanco-principal);
+    font-weight: bold;
+}
